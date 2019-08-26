@@ -8,6 +8,7 @@ export default class RepoList extends Component {
     this.state = {repos: []}
   }
 
+  //Props(properties)
   getRepos() {
     const {username} = this.props
     this.props.getRepos(username).then(repos => {
