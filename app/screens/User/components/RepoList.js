@@ -11,6 +11,7 @@ export default class RepoList extends Component {
   getRepos() {
     const {username} = this.props
     this.props.getRepos(username).then(repos => {
+      //set state
       this.setState({repos});
     });
   }
