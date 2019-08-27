@@ -6,6 +6,7 @@ import ProfileStat from './ProfileStat'
 export default class Profile extends Component {
   constructor() {
     super()
+    //Lists and keys
     this.state = {user: {}, orgs: []}
   }
 
