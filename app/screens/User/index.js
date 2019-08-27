@@ -9,6 +9,7 @@ export default class User extends Component {
     this.state = {filter: ''}
   }
 
+  //Methods as props
   handleFilterUpdate = (filter) => {
     this.setState({filter})
   }
