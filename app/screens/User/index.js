@@ -15,6 +15,7 @@ export default class User extends Component {
   }
 
   render() {
+    //Props
     const {username} = this.props.params
     const {filter} = this.state
     return (
