@@ -12,6 +12,7 @@ export default class Home extends Component {
         <form
           className="form-inline"
           role="form"
+      //Event Handling
           onSubmit={this.handleSubmit}
         >
           <div className="form-group">
