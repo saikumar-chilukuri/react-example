@@ -3,7 +3,8 @@ import Tooltip from 'react-tooltip';
 import {getUserData} from '../../../utils/github-api'
 import ProfileStat from './ProfileStat'
 
-export default class Profile extends Component {
+//Custom App Model
+class Profile extends Component {
   constructor() {
     super()
     //Lists and keys
@@ -56,6 +57,7 @@ export default class Profile extends Component {
     );
   }
 }
+export default Profile;
 
 Profile.propTypes = {
   username: PropTypes.string.isRequired
