@@ -2,6 +2,7 @@ import React, {PropTypes} from 'react';
 
 export default ProfileStat;
 
+//-----Functional Components-------//
 function ProfileStat({value, label}) {
   return (
     <span>
