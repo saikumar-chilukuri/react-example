@@ -1,4 +1,4 @@
-# react-example
+## React-example
 
 React exmaple application for understanding the basic working and functionalities.
 
