@@ -11,3 +11,13 @@ npm run test
 npm run dev
 open http://localhost:8080
 ```
+
+## Moxios
+
+> These are the mock axios used for unit testing
+
+### Install
+
+```sh
+npm install moxios --save-dev
+```
