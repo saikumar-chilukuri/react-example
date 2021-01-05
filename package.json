@@ -24,7 +24,7 @@
   "author": "Sai kumar",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^3.3.5",
     "history": "^3.0.0",
     "moment": "^2.10.6",
